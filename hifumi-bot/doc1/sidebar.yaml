@@ -1,0 +1,42 @@
+items:
+-   label: "使用前必读！！"
+    file: README.md
+-   label: "功能列表"
+    file: common/common.md
+    collapsed: false
+    items:
+    -   label: "好感度系统"
+        file: common/favorability.md
+    -   label: "来份色图"
+        file: common/setu.md
+    -   label: "“睡着了吗”"
+        file: common/asleep.md
+    -   label: "指令限制（原指令cd）"
+        file: common/cd.md
+    -   label: "网易云点歌"
+        file: common/multincm.md
+    -   label: "今日老婆"
+        file: common/waifu.md
+    -   label: "emoji合成"
+        file: common/emojimix.md
+    -   label: "图片操作"
+        file: common/imagetools.md
+    -   label: "漂流瓶"
+        file: common/bottle.md
+    -   label: "抽象文本生成"
+        file: common/oddtext.md
+    -   label: "表情包生成"
+        file: common/meme_generator.md
+    -   label: "撤回消息"
+        file: common/withdraw.md
+    -   label: "淫 语"
+        file: common/yinyu.md
+    -   label: "游戏"
+        file: game/games.md
+        items:
+        -   label: "俄罗斯轮盘"
+            file: game/russian.md
+        -   label: "人生重开"
+            file: game/remake.md
+        -   label: "银趴"
+            file: game/impact.md

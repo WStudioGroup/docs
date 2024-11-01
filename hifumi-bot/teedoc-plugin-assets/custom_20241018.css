@@ -1,0 +1,22 @@
+#home_page h1 {
+    color: #4caf7d;
+}
+
+@font-face {
+    font-family: "Blueaka";
+    src: url("https://cdn.wstudio.work/wangrun/wrblog/fonts/BlueakaBeta2GBK-Bold.ttf");
+}
+
+.dark #home_page h1{
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    #home_page h1 {
+        color: #00F5FF;
+    }
+}
+
+body {
+    font-family: "Blueaka";
+}
