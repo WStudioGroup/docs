@@ -5,8 +5,8 @@ items:
     file: common/common.md
     collapsed: false
     items:
-    -   label: "好感度系统"
-        file: common/favorability.md
+    -   label: "【新🎈】表情包生成"
+        file: common/meme_generator.md
     -   label: "来份色图"
         file: common/setu.md
     -   label: "“睡着了吗”"
@@ -25,8 +25,6 @@ items:
         file: common/bottle.md
     -   label: "抽象文本生成"
         file: common/oddtext.md
-    -   label: "表情包生成"
-        file: common/meme_generator.md
     -   label: "撤回消息"
         file: common/withdraw.md
     -   label: "淫 语"
@@ -36,7 +34,5 @@ items:
         items:
         -   label: "俄罗斯轮盘"
             file: game/russian.md
-        -   label: "人生重开"
-            file: game/remake.md
         -   label: "银趴"
             file: game/impact.md
