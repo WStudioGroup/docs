@@ -5,8 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>WStudio 文档中心</title>
         <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+            }
+            h2 {
+                margin-bottom: 20px;
+                color: #333;
+            }
             .button {
-                background-color: #4CAF50;
+                background-color: #6200ea; /* 更改按钮颜色 */
                 border: none;
                 color: white;
                 padding: 15px 32px;
@@ -16,14 +29,19 @@
                 font-size: 16px;
                 margin: 4px 2px;
                 cursor: pointer;
+                border-radius: 8px; /* 添加圆角 */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+                transition: background-color 0.3s ease; /* 添加过渡效果 */
+            }
+            .button:hover {
+                background-color: #3700b3; /* 悬停时颜色加深 */
             }
         </style>
     </head>
     <body>
-        <center>
+        <div>
             <h2>WStudio 文档中心</h2>
-            <br>
             <button class="button" onclick="window.location.href='/hifumi-bot';">Hifumi-Bot 日富美使用文档</button>
-        </center>
+        </div>
     </body>
 </html>
