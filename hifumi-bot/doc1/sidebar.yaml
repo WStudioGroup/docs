@@ -5,10 +5,12 @@ items:
     file: common/common.md
     collapsed: false
     items:
-    -   label: "【新🎈】表情包生成"
-        file: common/meme_generator.md
-    -   label: "【新🎈】上传色图"
+    -   label: "【新🎈】简易AI对话"
+        file: common/aitalk.md
+    -   label: "上传色图"
         file: common/wr_setu.md
+    -   label: "表情包生成"
+        file: common/meme_generator.md
     -   label: "来份色图"
         file: common/setu.md
     -   label: "“睡着了吗”"
