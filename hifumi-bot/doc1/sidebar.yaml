@@ -7,6 +7,8 @@ items:
     items:
     -   label: "【新🎈】简易AI对话"
         file: common/aitalk.md
+    -   label: "【新🎈】Arcaea表情包生成"
+        file: common/arcaea.md
     -   label: "上传色图"
         file: common/wr_setu.md
     -   label: "表情包生成"
