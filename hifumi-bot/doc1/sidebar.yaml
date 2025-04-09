@@ -1,44 +1,58 @@
 items:
--   label: "使用前必读！！"
-    file: README.md
--   label: "功能列表"
-    file: common/common.md
-    collapsed: false
-    items:
-    -   label: "【新🎈】简易AI对话"
-        file: common/aitalk.md
-    -   label: "【新🎈】Arcaea表情包生成"
-        file: common/arcaea.md
-    -   label: "上传色图"
-        file: common/wr_setu.md
-    -   label: "表情包生成"
-        file: common/meme_generator.md
-    -   label: "来份色图"
-        file: common/setu.md
-    -   label: "“睡着了吗”"
-        file: common/asleep.md
-    -   label: "指令限制（原指令cd）"
-        file: common/cd.md
-    -   label: "网易云点歌"
-        file: common/multincm.md
-    -   label: "今日老婆"
-        file: common/waifu.md
-    -   label: "emoji合成"
-        file: common/emojimix.md
-    -   label: "图片操作"
-        file: common/imagetools.md
-    -   label: "漂流瓶"
-        file: common/bottle.md
-    -   label: "抽象文本生成"
-        file: common/oddtext.md
-    -   label: "撤回消息"
-        file: common/withdraw.md
-    -   label: "淫 语"
-        file: common/yinyu.md
-    -   label: "游戏"
-        file: game/games.md
-        items:
-        -   label: "俄罗斯轮盘"
-            file: game/russian.md
-        -   label: "银趴"
-            file: game/impact.md
+- label: "使用前必读！！"
+  file: README.md
+- label: "功能列表"
+  file: common/common.md
+  collapsed: false
+  items:
+    - label: "新功能🎈"
+      file: common/common.md
+      items:
+        - label: "【新🎈】AI绘画🖼️"
+          file: common/aidraw.md
+    - label: "娱乐功能🧋"
+      file: common/common.md
+      items:
+        - label: "今日老婆😍"
+          file: common/waifu.md
+        - label: "简易AI对话🍻"
+          file: common/aitalk.md
+        - label: "Arcaea表情包生成😀"
+          file: common/arcaea.md
+        - label: "表情包生成😀"
+          file: common/meme_generator.md
+        - label: "网易云点歌🎧"
+          file: common/multincm.md
+        - label: "漂流瓶🍾"
+          file: common/bottle.md
+        - label: "emoji合成😊"
+          file: common/emojimix.md
+        - label: "图片操作🖼️"
+          file: common/imagetools.md
+        - label: "抽象文本生成🔣"
+          file: common/oddtext.md
+        - label: "淫 语😊"
+          file: common/yinyu.md
+    - label: "游戏🎮"
+      file: common/common.md
+      items:
+        - label: "银趴🥳"
+          file: game/impact.md
+        - label: "俄罗斯轮盘🔫"
+          file: game/russian.md
+    - label: "实用功能⚙️"
+      file: common/common.md
+      items:
+        - label: "睡着了吗💤"
+          file: common/asleep.md
+        - label: "指令限制🚫（维修中）"
+          file: common/cd.md
+        - label: "撤回消息🔙"
+          file: common/withdraw.md
+    - label: "色图🖼️"
+      file: common/common.md
+      items:
+        - label: "上传色图🖼️"
+          file: common/wr_setu.md
+        - label: "来份色图🖼️"
+          file: common/setu.md
