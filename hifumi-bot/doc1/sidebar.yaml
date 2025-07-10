@@ -57,7 +57,7 @@ items:
     - label: "色图🖼️"
       file: common/common.md
       items:
-        - label: "上传色图🖼️"
+        - label: "上传色图🖼️（图库）"
           file: common/wr_setu.md
-        - label: "来份色图🖼️"
+        - label: "来份色图🖼️（pixiv）"
           file: common/setu.md

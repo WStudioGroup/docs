@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/img_download.html</loc>
-            <lastmod>2025-05-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/simple_admin.html</loc>
-            <lastmod>2025-05-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/waifu.html</loc>
             <lastmod>2024-08-11</lastmod>
             <changefreq>weekly</changefreq>
@@ -20,7 +8,7 @@
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/common.html</loc>
-            <lastmod>2025-05-29</lastmod>
+            <lastmod>2025-07-10</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -56,7 +44,13 @@
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/withdraw.html</loc>
-            <lastmod>2024-09-28</lastmod>
+            <lastmod>2025-07-10</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/multincm.html</loc>
+            <lastmod>2025-05-29</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -86,19 +80,13 @@
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/index.html</loc>
-            <lastmod>2025-04-09</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/multincm.html</loc>
-            <lastmod>2025-05-29</lastmod>
+            <lastmod>2025-07-10</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/meme_generator.html</loc>
-            <lastmod>2025-04-15</lastmod>
+            <lastmod>2025-06-20</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -140,7 +128,7 @@
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/aitalk.html</loc>
-            <lastmod>2025-03-15</lastmod>
+            <lastmod>2025-07-10</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -153,6 +141,18 @@
         <url>
             <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/aidraw.html</loc>
             <lastmod>2025-04-09</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/img_download.html</loc>
+            <lastmod>2025-05-29</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumi-bot/doc1/common/simple_admin.html</loc>
+            <lastmod>2025-05-29</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
