@@ -8,14 +8,16 @@ items:
     - label: "新功能🎈"
       file: common/common.md
       items:
-        - label: "【新🎈】自定义入群欢迎（群管功能）"
-          file: common/simple_admin.md
-        - label: "【新🎈】表情包下载"
-          file: common/img_download.md
+        - label: "【新🎈】今日运势"
+          file: common/jrys.md
 
     - label: "娱乐功能🧋"
       file: common/common.md
       items:
+        - label: "自定义入群欢迎（群管功能）"
+          file: common/simple_admin.md
+        - label: "表情包下载"
+          file: common/img_download.md
         - label: "今日老婆😍"
           file: common/waifu.md
         - label: "简易AI对话🍻"
