@@ -10,6 +10,8 @@ items:
       items:
         - label: "【新🎈】今日运势"
           file: common/jrys.md
+        - label: "【新🎈】B站解析"
+          file: common/bilibili.md
 
     - label: "娱乐功能🧋"
       file: common/common.md
