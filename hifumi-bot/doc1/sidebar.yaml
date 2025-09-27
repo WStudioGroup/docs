@@ -8,6 +8,8 @@ items:
     - label: "新功能🎈"
       file: common/common.md
       items:
+        - label: "【新🎈】图片手办化"
+          file: common/shoubanhua.md
         - label: "【新🎈】今日运势"
           file: common/jrys.md
         - label: "【新🎈】B站解析"
