@@ -9,6 +9,8 @@ items:
         file: common/common.md
         collapsed: false
         items:
+          - label: "【新🎈】AI海龟汤"
+            file: common/turtlesoup.md
           - label: "【新🎈】图片手办化"
             file: common/shoubanhua.md
           - label: "【新🎈】今日运势"
