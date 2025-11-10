@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://docs.wstudio.work/sitemap.xml

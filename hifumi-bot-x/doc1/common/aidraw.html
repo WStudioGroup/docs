@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="zh"  class="">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="">
+    
+    
+    <meta name="description" content="">
+    
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+        
+        <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+        
+        <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+        
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/pre_main.js"></script>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/prism.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/viewer.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/dark.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/light.css" type="text/css"/>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/jquery.min.js"></script>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/split.js"></script>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/search/style.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/teedoc-plugin-assets/custom_20250104.css"type="text/css"/>
+        
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5d1e509c6e1bba21101b1559f973e038";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        
+    
+    
+    <title>AI绘画 - Hifumi-Bot 支援版 使用文档</title>
+    
+    <script type="text/javascript">js_vars = {}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
+</head>
+
+
+<body class="type_doc">
+    
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/hifumi-bot-x/">
+                
+                
+                    <h2>Hifumi-Bot-Docs</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/hifumi-bot-x/doc1/">文档</a></li>
+<li class=""><a  href="/hifumi-bot-x/thank/">打赏</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
+                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
+                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
+                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
+                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/index.html"><span class="label">使用前必读！！</span><span class=""></span></a></li>
+<li class="active_parent with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">功能列表</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">新功能🎈</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/turtlesoup.html"><span class="label">【新🎈】AI海龟汤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/shoubanhua.html"><span class="label">【新🎈】图片手办化</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/jrys.html"><span class="label">【新🎈】今日运势</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">娱乐功能🧋</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/waifu.html"><span class="label">今日老婆😍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/aitalk.html"><span class="label"><font color='blue'>简易AI对话🍻</font></span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hifumi-bot-x/doc1/common/aidraw.html"><span class="label">AI绘画🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/arcaea.html"><span class="label">Arcaea表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/meme_generator.html"><span class="label">表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/multincm.html"><span class="label">网易云点歌🎧</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/bottle.html"><span class="label">漂流瓶🍾</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/emojimix.html"><span class="label">emoji合成😊</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/imagetools.html"><span class="label">图片操作🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/oddtext.html"><span class="label">抽象文本生成🔣</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/yinyu.html"><span class="label">淫 语😊</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">游戏🎮</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/game/impact.html"><span class="label">银趴🥵</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/game/russian.html"><span class="label">俄罗斯轮盘🔫</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">实用功能⚙️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/bilibili.html"><span class="label">B站解析🎥</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/simple_admin.html"><span class="label">自定义入群欢迎（群管功能）👋</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/img_download.html"><span class="label">表情包下载⬇️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/asleep.html"><span class="label">睡着了吗💤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/withdraw.html"><span class="label">撤回消息🔙</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">色图🖼️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/setu.html"><span class="label"><font color='blue'>来份色图🖼️（pixiv）</font></span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            
+                            <h1>AI绘画</h1>
+                            
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            
+                        </div>
+                        <div id="article_info_right">
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_tools">
+                        <span></span>
+                        <span id="toc_btn"></span>
+                    </div>
+                    <div id="update_history">
+                        
+                    </div>
+                    <div id="article_content">
+                        
+                            <p><em>支持自动翻译，或选择关键词生成哦！</em><br />
+<em><font color="red"><strong>R18 图片需要管理员同意才能在群内显示哦！私聊不受限制，请老师往下看~</strong></font></em></p>
+<blockquote>
+<h2 id="%E7%94%9F%E6%88%90%E6%8F%8F%E8%BF%B0%E8%AF%8D">生成描述词</h2>
+<p>什么是描述词？顾名思义，描述词就是用来描述画的内容的词语<br />
+日富美提供了两种方式来帮助老师生成描述词：</p>
+<ol>
+<li>商店选择（推荐）：老师可以从网站<a href="https://wstudio.work/aitag"  target="_blank">点此前往</a>生成描述词，日富美帮老师整理了很多描述词，老师可以选择喜欢的词语。<font color="red">并且已经包含所有《蔚蓝档案》的学生哦~</font></li>
+<li>自动翻译（快速）：老师可以直接输入一句话，例如“夕阳下海边的亚津子”，日富美会自动翻译为英文，<font color="red">同时会自动检测特殊的游戏角色名称（如“亚津子”）</font>，目前仅支持《蔚蓝档案》，还在不断完善中~</li>
+</ol>
+
+<pre class="language-none"><code class="language-none">/生成描述词
+</code></pre>
+<p><img src="aidraw/tag_1.png" alt="生成描述词1" /> &gt;<img src="aidraw/tag_2.png" alt="生成描述词2" /> &gt;<img src="aidraw/tag_3.png" alt="生成描述词3" /></p>
+</blockquote>
+<blockquote>
+<h2 id="%E7%BB%98%E7%94%BB">绘画</h2>
+<p><font color="red">请老师注意！R18 图片需要管理员同意才能在群内显示哦，下方有指令哦！私聊不受限制</font><br />
+一些小 Tips：</p>
+<ol>
+<li>关于张数：一次性最好不要画太多哦，因为不是同时绘画的啦，是一张张画的哦！</li>
+<li>关于点数：点数是日富美从第三方接口那里买的哦，每次绘画都会消耗相应的点数，所以老师可以的话可以赞助一下哦~</li>
+</ol>
+
+<pre class="language-none"><code class="language-none">/绘画
+</code></pre>
+<p><img src="aidraw/draw_1.png" alt="绘画1" /> &gt;<img src="aidraw/draw_2.png" alt="绘画2" /> &gt;<img src="aidraw/draw_3.png" alt="绘画3" /> &gt;<img src="aidraw/draw_4.png" alt="绘画4" /></p>
+</blockquote>
+<blockquote>
+<h2 id="%E5%BC%80%E5%90%AF/%E5%85%B3%E9%97%AD-R18">开启/关闭 R18</h2>
+<p>如果老师在群内绘画，每张图片都会经过自动检测<br />
+<font color="red">如果图片中包含 R18 内容，并且管理员没有开启 R18，则不会显示在群内，会尝试私聊发给老师</font><br />
+群管理员可以开启或关闭 R18，开启后，将不会进行检测，意味着 R18 图片将会显示在群内<br />
+<strong>所需权限：超管/管理员/群主</strong></p>
+
+<pre class="language-none"><code class="language-none">/开启ai绘画r18
+/关闭ai绘画r18
+</code></pre>
+</blockquote>
+
+                        
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/hifumi-bot-x/doc1/common/aitalk.html">
+                            <span class="icon"></span>
+                            <span class="label"><font color='blue'>简易AI对话🍻</font></span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        
+                        <a href="/hifumi-bot-x/doc1/common/arcaea.html">
+                            <span class="label">Arcaea表情包生成😀</span>
+                            <span class="icon"></span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc_wrapper">
+                <div id="toc">
+                    <div id="toc_content">
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a></a><ul><li><a target="_blank" href="https://qm.qq.com/q/yibcpuCPBI">『用科学无法证明的东西不一定就是虚假的』    <br><br>——WR</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://github.com/teedoc/teedoc">Generated by teedoc, Written by WR</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/hifumi-bot-x/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/main.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/search/search_main.js"></script>
+    
+</body>
+
+</html>

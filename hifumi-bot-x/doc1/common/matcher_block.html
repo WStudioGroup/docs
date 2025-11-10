@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="zh"  class="">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="">
+    
+    
+    <meta name="description" content="">
+    
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+        
+        <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+        
+        <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+        
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/pre_main.js"></script>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/prism.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/viewer.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/dark.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/theme_default/light.css" type="text/css"/>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/jquery.min.js"></script>
+        
+        <script src="/hifumi-bot-x/static/js/theme_default/split.js"></script>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/static/css/search/style.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumi-bot-x/teedoc-plugin-assets/custom_20250104.css"type="text/css"/>
+        
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5d1e509c6e1bba21101b1559f973e038";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        
+    
+    
+    <title>指令cd - Hifumi-Bot 支援版 使用文档</title>
+    
+    <script type="text/javascript">js_vars = {}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
+</head>
+
+
+<body class="type_doc">
+    
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/hifumi-bot-x/">
+                
+                
+                    <h2>Hifumi-Bot-Docs</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/hifumi-bot-x/doc1/">文档</a></li>
+<li class=""><a  href="/hifumi-bot-x/thank/">打赏</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
+                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
+                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
+                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
+                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/index.html"><span class="label">使用前必读！！</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">功能列表</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">新功能🎈</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/turtlesoup.html"><span class="label">【新🎈】AI海龟汤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/shoubanhua.html"><span class="label">【新🎈】图片手办化</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/jrys.html"><span class="label">【新🎈】今日运势</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">娱乐功能🧋</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/waifu.html"><span class="label">今日老婆😍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/aitalk.html"><span class="label"><font color='blue'>简易AI对话🍻</font></span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/aidraw.html"><span class="label">AI绘画🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/arcaea.html"><span class="label">Arcaea表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/meme_generator.html"><span class="label">表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/multincm.html"><span class="label">网易云点歌🎧</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/bottle.html"><span class="label">漂流瓶🍾</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/emojimix.html"><span class="label">emoji合成😊</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/imagetools.html"><span class="label">图片操作🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/oddtext.html"><span class="label">抽象文本生成🔣</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/yinyu.html"><span class="label">淫 语😊</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">游戏🎮</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/game/impact.html"><span class="label">银趴🥵</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/game/russian.html"><span class="label">俄罗斯轮盘🔫</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">实用功能⚙️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/bilibili.html"><span class="label">B站解析🎥</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/simple_admin.html"><span class="label">自定义入群欢迎（群管功能）👋</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/img_download.html"><span class="label">表情包下载⬇️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/asleep.html"><span class="label">睡着了吗💤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/withdraw.html"><span class="label">撤回消息🔙</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/common.html"><span class="label">色图🖼️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumi-bot-x/doc1/common/setu.html"><span class="label"><font color='blue'>来份色图🖼️（pixiv）</font></span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            
+                            <h1>指令cd</h1>
+                            
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            
+                        </div>
+                        <div id="article_info_right">
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_tools">
+                        <span></span>
+                        <span id="toc_btn"></span>
+                    </div>
+                    <div id="update_history">
+                        
+                    </div>
+                    <div id="article_content">
+                        
+                            <p><strong>以下功能所需权限：超管/管理员/群主</strong></p>
+<blockquote>
+<blockquote>
+<h2 id="%E6%8C%87%E4%BB%A4cd">指令cd</h2>
+<p>为某个指令添加cd口牙！</p>
+
+<pre class="language-none"><code class="language-none">/添加阻断 [指令] 冷却 n
+（指令指需要操作的指令，并非功能名称！）
+（n为正整数，单位为秒）
+</code></pre>
+</blockquote>
+<blockquote>
+<h2 id="%E6%8C%87%E4%BB%A4%E5%B1%8F%E8%94%BD">指令屏蔽</h2>
+<p>在本群禁止各位老师使用这个指令！</p>
+
+<pre class="language-none"><code class="language-none">/添加阻断 [指令] 屏蔽
+（指令指需要操作的指令，并非功能名称！）
+</code></pre>
+</blockquote>
+<blockquote>
+<h2 id="%E5%8F%96%E6%B6%88">取消</h2>
+<p>取消指令在本群的限制</p>
+
+<pre class="language-none"><code class="language-none">/解除阻断 [指令]
+（指令指需要操作的指令，并非功能名称！）
+（如果cd与屏蔽同时都有，将会一并解除）
+</code></pre>
+</blockquote>
+<blockquote>
+<h2 id="%E6%9F%A5%E7%9C%8B%E9%98%BB%E6%96%AD">查看阻断</h2>
+<p>查看本群被阻断的指令</p>
+
+<pre class="language-none"><code class="language-none">/查看阻断
+</code></pre>
+</blockquote>
+<p><em>日富美还是懒得放图啦（</em></p>
+</blockquote>
+<p><br><br></p>
+<p><em>原项目地址：</em><br />
+<em>Github：</em><a href="https://github.com/KarisAya/nonebot_plugin_matcher_block"  target="_blank">nonebot_plugin_matcher_block</a><br />
+<em>Github（镜像站）：</em><a href="https://github.proxy.wstudio.work/KarisAya/nonebot_plugin_matcher_block"  target="_blank">nonebot_plugin_matcher_block</a></p>
+
+                        
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                    </div>
+                    <div id="next">
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc_wrapper">
+                <div id="toc">
+                    <div id="toc_content">
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a></a><ul><li><a target="_blank" href="https://qm.qq.com/q/yibcpuCPBI">『用科学无法证明的东西不一定就是虚假的』    <br><br>——WR</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://github.com/teedoc/teedoc">Generated by teedoc, Written by WR</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/hifumi-bot-x/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/main.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/hifumi-bot-x/static/js/search/search_main.js"></script>
+    
+</body>
+
+</html>
