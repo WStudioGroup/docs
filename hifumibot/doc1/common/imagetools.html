@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="zh"  class="">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="">
+    
+    
+    <meta name="description" content="">
+    
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+        
+        <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+        
+        <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+        
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script src="/hifumibot/static/js/theme_default/pre_main.js"></script>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/prism.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/viewer.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/dark.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/light.css" type="text/css"/>
+        
+        <script src="/hifumibot/static/js/theme_default/jquery.min.js"></script>
+        
+        <script src="/hifumibot/static/js/theme_default/split.js"></script>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/search/style.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/teedoc-plugin-assets/custom_20250104.css"type="text/css"/>
+        
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5d1e509c6e1bba21101b1559f973e038";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/gitalk/gitalk.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/gitalk/custom_gitalk.css" type="text/css"/>
+        
+    
+    
+    <title>图片操作 - Hifumi-Bot 使用文档</title>
+    
+    <script type="text/javascript">js_vars = {}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
+</head>
+
+
+<body class="type_doc">
+    
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/hifumibot/">
+                
+                
+                    <h2>Hifumi-Bot-Docs</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/hifumibot/doc1/">文档</a></li>
+<li class=""><a  href="/hifumibot/thank/">打赏</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
+                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
+                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
+                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
+                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/index.html"><span class="label">使用前必读！！</span><span class=""></span></a></li>
+<li class="active_parent with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">功能列表</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">新功能🎈</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/turtlesoup.html"><span class="label">【新🎈】AI海龟汤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/shoubanhua.html"><span class="label">【新🎈】图片手办化</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/jrys.html"><span class="label">【新🎈】今日运势</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">娱乐功能🧋</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/waifu.html"><span class="label">今日老婆😍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/aitalk.html"><span class="label">简易AI对话🍻</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/aidraw.html"><span class="label">AI绘画🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/arcaea.html"><span class="label">Arcaea表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/meme_generator.html"><span class="label">表情包生成😀</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/multincm.html"><span class="label">网易云点歌🎧</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/bottle.html"><span class="label">漂流瓶🍾</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/emojimix.html"><span class="label">emoji合成😊</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hifumibot/doc1/common/imagetools.html"><span class="label">图片操作🖼️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/oddtext.html"><span class="label">抽象文本生成🔣</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">游戏🎮</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/game/impact.html"><span class="label">银趴🥵</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/game/russian.html"><span class="label">俄罗斯轮盘🔫</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">实用功能⚙️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/bilibili.html"><span class="label">B站解析🎥</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/simple_admin.html"><span class="label">自定义入群欢迎（群管功能）👋</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/img_download.html"><span class="label">表情包下载⬇️</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/asleep.html"><span class="label">睡着了吗💤</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/withdraw.html"><span class="label">撤回消息🔙</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/common.html"><span class="label">色图🖼️</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/doc1/common/setu.html"><span class="label">来份色图🖼️（pixiv）</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            
+                            <h1>图片操作</h1>
+                            
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            
+                        </div>
+                        <div id="article_info_right">
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_tools">
+                        <span></span>
+                        <span id="toc_btn"></span>
+                    </div>
+                    <div id="update_history">
+                        
+                    </div>
+                    <div id="article_content">
+                        
+                            <blockquote>
+<blockquote>
+<h2 id="%E5%9B%BE%E7%89%87%E6%93%8D%E4%BD%9C">图片操作</h2>
+<p>老师可以对图片和动图进行各类操作，以达到各种效果</p>
+
+<pre class="language-none"><code class="language-none">[回复消息] /操作名称
+（操作名称请老师看第二段的列表 ↓）
+</code></pre>
+<p><img src="imagetools/%E5%8F%8D%E8%89%B2.png" alt="反色" /></p>
+<img src="setu/不严肃.jpg" width=200 height=150>
+</blockquote>
+<p><br><br></p>
+<blockquote>
+<h2 id="%E6%94%AF%E6%8C%81%E7%9A%84%E6%93%8D%E4%BD%9C%E5%88%97%E8%A1%A8">支持的操作列表</h2>
+<p><em>老师请记得在前面加斜杠！</em></p>
+<ul>
+<li>水平翻转/左翻/右翻</li>
+<li>竖直翻转/上翻/下翻</li>
+<li>旋转 + 角度</li>
+<li>缩放 + 尺寸或百分比，如：缩放 100x100；缩放 200x；缩放 150%</li>
+<li>裁剪 + 尺寸或比例，如：裁剪 100x100；裁剪 2:1</li>
+<li>反相/反色</li>
+<li>灰度图/黑白</li>
+<li>轮廓</li>
+<li>浮雕</li>
+<li>模糊</li>
+<li>锐化</li>
+<li>像素化 + 像素尺寸，默认为 8</li>
+<li>颜色滤镜 + 16进制颜色代码 或 颜色名称，如：颜色滤镜 #66ccff；颜色滤镜 green</li>
+<li>纯色图 + 16进制颜色代码 或 颜色名称</li>
+<li>渐变图 [+ 角度] + 颜色列表，如：渐变图 红色 黄色；渐变图 45 红色 黄色</li>
+<li>gif倒放/倒放</li>
+<li>gif正放倒放/正放倒放</li>
+<li>gif变速 + 倍率，如：gif变速 0.5x；gif变速 50%</li>
+<li>gif分解 [+ 间隔时间] + 至少两张图片，间隔时间默认为100，单位为毫秒</li>
+<li>gif合成 + 至少两张图片</li>
+<li>四宫格</li>
+<li>九宫格</li>
+<li>横向拼接 + 至少两张图片</li>
+<li>纵向拼接 + 至少两张图片</li>
+<li>文字转图 + 文字，支持少量BBcode</li>
+</ul>
+</blockquote>
+</blockquote>
+<p><br><br></p>
+<p><em>原项目地址：</em><br />
+<em>Github：</em><a href="https://github.com/noneplugin/nonebot-plugin-imagetools"  target="_blank">nonebot-plugin-imagetools</a><br />
+<em>Github（镜像站）：</em><a href="https://github.proxy.wstudio.work/noneplugin/nonebot-plugin-imagetools"  target="_blank">nonebot-plugin-imagetools</a></p>
+
+                        
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/hifumibot/doc1/common/emojimix.html">
+                            <span class="icon"></span>
+                            <span class="label">emoji合成😊</span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        
+                        <a href="/hifumibot/doc1/common/oddtext.html">
+                            <span class="label">抽象文本生成🔣</span>
+                            <span class="icon"></span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc_wrapper">
+                <div id="toc">
+                    <div id="toc_content">
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a></a><ul><li><a target="_blank" href="https://qm.qq.com/q/yibcpuCPBI">『用科学无法证明的东西不一定就是虚假的』    <br><br>——WR</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://github.com/teedoc/teedoc">Generated by teedoc, Written by WR</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/hifumibot/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
+    
+        <script src="/hifumibot/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/hifumibot/static/js/theme_default/main.js"></script>
+    
+        <script src="/hifumibot/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/hifumibot/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/hifumibot/static/js/search/search_main.js"></script>
+    
+        <script src="/hifumibot/static/js/gitalk/gitalk.min.js"></script>
+    
+        <script src="/hifumibot/static/js/gitalk/main.js"></script>
+    
+</body>
+
+</html>
