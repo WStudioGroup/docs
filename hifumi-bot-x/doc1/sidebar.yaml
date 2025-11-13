@@ -40,8 +40,6 @@ items:
             file: common/imagetools.md
           - label: "抽象文本生成🔣"
             file: common/oddtext.md
-          - label: "淫 语😊"
-            file: common/yinyu.md
       - label: "游戏🎮"
         file: common/common.md
         collapsed: false
