@@ -9,17 +9,17 @@ items:
         file: common/common.md
         collapsed: false
         items:
-          - label: "【新🎈】AI海龟汤"
-            file: common/turtlesoup.md
-          - label: "【新🎈】图片手办化"
-            file: common/shoubanhua.md
-          - label: "【新🎈】今日运势"
-            file: common/jrys.md
+          - label: "【新🎈】魔法少女的魔法审判 表情包生成"
+            file: common/manosaba_meme.md
 
       - label: "娱乐功能🧋"
         file: common/common.md
         collapsed: false
         items:
+          - label: "图片手办化🖼️"
+            file: common/shoubanhua.md
+          - label: "今日运势🎈"
+            file: common/jrys.md
           - label: "今日老婆😍"
             file: common/waifu.md
           - label: "<font color='blue'>简易AI对话🍻</font>"
@@ -44,6 +44,8 @@ items:
         file: common/common.md
         collapsed: false
         items:
+          - label: "AI海龟汤🐢"
+            file: common/turtlesoup.md
           - label: "银趴🥵"
             file: game/impact.md
           - label: "俄罗斯轮盘🔫"
