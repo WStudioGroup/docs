@@ -1,188 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/game/impact.html</loc>
-            <lastmod>2025-01-04</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/games/yinpa.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/game/russian.html</loc>
-            <lastmod>2025-01-04</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/index.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/game/games.html</loc>
-            <lastmod>2024-08-10</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/tools/bilibili.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/game/remake.html</loc>
-            <lastmod>2024-08-09</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/manosaba_memes.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/index.html</loc>
-            <lastmod>2025-10-29</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/arcaea_sticker.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/waifu.html</loc>
-            <lastmod>2024-08-11</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/common.html</loc>
+            <lastmod>2026-02-07</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/common.html</loc>
-            <lastmod>2025-12-02</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/memes.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/bottle.html</loc>
-            <lastmod>2025-10-29</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/jrys.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/imagetools.html</loc>
-            <lastmod>2024-08-11</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/bottle.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/emojimix.html</loc>
-            <lastmod>2024-08-11</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/netease_music.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/turtlesoup.html</loc>
-            <lastmod>2025-11-01</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/waifu.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/manosaba_meme.html</loc>
-            <lastmod>2025-12-02</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/ai.html</loc>
+            <lastmod>2026-02-09</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/wr_setu.html</loc>
-            <lastmod>2025-01-18</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/utils/goodmorning.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/oddtext.html</loc>
-            <lastmod>2024-08-10</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/utils/status.html</loc>
+            <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/withdraw.html</loc>
-            <lastmod>2025-07-10</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/multincm.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/aitalk.html</loc>
-            <lastmod>2025-11-10</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/arcaea.html</loc>
-            <lastmod>2025-03-15</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/aidraw.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/img_download.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/simple_admin.html</loc>
-            <lastmod>2025-05-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/jrys.html</loc>
-            <lastmod>2025-09-16</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/bilibili.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/shoubanhua.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/meme_generator.html</loc>
-            <lastmod>2025-10-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/setu.html</loc>
-            <lastmod>2025-11-14</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/cd.html</loc>
-            <lastmod>2025-05-29</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/favorability.html</loc>
-            <lastmod>2024-10-05</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/asleep.html</loc>
-            <lastmod>2024-10-03</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/doc1/common/matcher_block.html</loc>
-            <lastmod>2024-08-10</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/thank/index.html</loc>
-            <lastmod>2025-03-15</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/donate/index.html</loc>
+            <lastmod>2026-02-07</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>

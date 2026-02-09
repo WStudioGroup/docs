@@ -1,0 +1,42 @@
+items:
+  - label: <font color="red">⚠️使用前须知⚠️</font>
+    file: README.md
+
+  - label: 🎈🎈<font color="#1a34daff">新功能</font>
+    items:
+      - label: 🤖AI(原手办化)
+        file: common/ai.md
+
+  - label: 🍾通用
+    items:
+      - label: ✨今日运势
+        file: common/jrys.md
+      - label: 😍今日老婆
+        file: common/waifu.md
+      - label: 🫙漂流瓶
+        file: common/bottle.md
+      - label: 😐表情包生成
+        file: common/memes.md
+      - label: 🖼️魔女审判表情包生成
+        file: common/manosaba_memes.md
+      - label: 🖼️Arcaea表情包生成
+        file: common/arcaea_sticker.md
+      - label: 🎧网易云点歌
+        file: common/netease_music.md
+
+  - label: 🎮游戏
+    items:
+      - label: 🥵银趴
+        file: games/yinpa.md
+
+  - label: 🔧工具
+    items:
+      - label: 🎥b站解析
+        file: tools/bilibili.md
+
+  - label: ⚙️杂项
+    items:
+      - label: 💤睡着了吗/日富美服务器状态
+        file: utils/status.md
+      - label: ⛺自动问候
+        file: utils/goodmorning.md

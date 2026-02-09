@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="en"  class="">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="">
+    
+    
+    <meta name="description" content="">
+    
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+        
+        <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+        
+        <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+        
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+        <script src="/hifumibot/static/js/theme_default/pre_main.js"></script>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/prism.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/viewer.min.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/dark.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/theme_default/light.css" type="text/css"/>
+        
+        <script src="/hifumibot/static/js/theme_default/jquery.min.js"></script>
+        
+        <script src="/hifumibot/static/js/theme_default/split.js"></script>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/search/style.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="/hifumibot/static/css/custom.css" type="text/css"/>
+        
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5d1e509c6e1bba21101b1559f973e038";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        
+    
+    
+    <title>AI(原手办化) - Hifumi-Bot 使用文档</title>
+    
+    <script type="text/javascript">js_vars = {"teedoc-plugin-ad-hint": {"type": "hint", "label": "⚠注意⚠", "content": "目前日富美属于恢复时期，很多内容和东西还没恢复，详细<a href=\"https://qm.qq.com/q/DVvtJoiOCO\" target=\"_blank\">加入【日富美の小窝】</a>", "show_times": -1, "show_after_s": 432000, "date": null, "color": "#a0421d", "link_color": "#e53935", "link_bg_color": "#e6ae5c", "bg_color": "#ffcf89", "color_hover": "white", "bg_color_hover": "#f57c00", "close_color": "#eab971"}}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
+</head>
+
+
+<body class="type_doc">
+    
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/hifumibot/">
+                
+                    <img class="site_logo" src="https://cdn.wstudio.work/wangrun/wrblog/ico/favicon.ico" alt="kivotos">
+                
+                
+                    <h2>Hifumi 日富美使用文档</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/hifumibot/hifumi/">日富美Bot</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+<li class=""><a  href="/hifumibot/donate/"><font color="red">打赏</font></a></li>
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
+                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
+                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
+                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
+                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/index.html"><span class="label"><font color="red">⚠️使用前须知⚠️</font></span><span class=""></span></a></li>
+<li class="active_parent no_link"><a><span class="label">🎈🎈<font color="#1a34daff">新功能</font></span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active with_link"><a href="/hifumibot/hifumi/common/ai.html"><span class="label">🤖AI(原手办化)</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">🍾通用</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/jrys.html"><span class="label">✨今日运势</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/waifu.html"><span class="label">😍今日老婆</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/bottle.html"><span class="label">🫙漂流瓶</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/memes.html"><span class="label">😐表情包生成</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/manosaba_memes.html"><span class="label">🖼️魔女审判表情包生成</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/arcaea_sticker.html"><span class="label">🖼️Arcaea表情包生成</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/netease_music.html"><span class="label">🎧网易云点歌</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">🎮游戏</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/games/yinpa.html"><span class="label">🥵银趴</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">🔧工具</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/tools/bilibili.html"><span class="label">🎥b站解析</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">⚙️杂项</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/utils/status.html"><span class="label">💤睡着了吗/日富美服务器状态</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hifumibot/hifumi/utils/goodmorning.html"><span class="label">⛺自动问候</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            
+                            <h1>AI(原手办化)</h1>
+                            
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            
+                        </div>
+                        <div id="article_info_right">
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_tools">
+                        <span></span>
+                        <span id="toc_btn"></span>
+                    </div>
+                    <div id="update_history">
+                        
+                    </div>
+                    <div id="article_content">
+                        
+                            <blockquote>
+<h2 id="%E6%9C%89%E4%BB%80%E4%B9%88%E6%A8%A1%E5%9E%8B">有什么模型</h2>
+<h3 id="%E9%A6%99%E8%95%89">香蕉</h3>
+<p>NanoBanana 香蕉<br />
+gemini-2.5-flash-image<br />
+<font color="#0066ffff">需要点数: 35</font><br />
+<font color="#9d00ffff">优点: 比香蕉pro便宜, 质量中等</font><br />
+<font color="red">缺点: 图片中的文字效果比香蕉pro差; 不支持色色(R18)</font></p>
+<h3 id="%E9%A6%99%E8%95%89pro">香蕉pro</h3>
+<p>NanoBananaPro 香蕉pro<br />
+gemini-3-pro-image-preview<br />
+<font color="#0066ffff">需要点数: 100</font><br />
+<font color="#9d00ffff">优点: 质量最高, 图片中的文字效果最好</font><br />
+<font color="red">缺点: 最贵; 不支持色色(R18)</font></p>
+<h3 id="%E5%90%8E%E7%BB%AD%E8%BF%98%E4%BC%9A%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E5%93%A6~">后续还会添加更多哦~</h3>
+</blockquote>
+<blockquote>
+<h2 id="%E8%8E%B7%E5%BE%97%E7%A7%AF%E5%88%86">获得积分</h2>
+<p><font color="red">为什么设计积分?<br />
+啊哈哈...因为这些功能都过于昂贵, 日富美能力有限, 不能完全免费啦...</p>
+</font>
+<font color="#0066ffff">不过老师可以通过签到或赞助获得积分哦！</font>
+<h3 id="%E7%AD%BE%E5%88%B0">签到</h3>
+<p><font color="red">3月5日前, 签到固定获得250积分！之后就是75-95随机哦~</font><br />
+<font color="red">签到有堆积上限哦(3月5日前为500, 之后为200)</font></p>
+
+<pre class="language-none"><code class="language-none">/ai 签到
+</code></pre>
+<p><img src="ai/image1.png" alt="img" /></p>
+<h3 id="%E8%B5%9E%E5%8A%A9">赞助</h3>
+<p>老师可以通过支持日富美, 获得点数哦！<br />
+<a href="https://ifdian.net/item/27367dc2f3c711f09ee352540025c377" target="_blank"><img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png" alt=""></a><br />
+<font color="red">请老师在填写QQ号的时候, 注意不要填写错误哦!<br>直接填写纯数字QQ号, 不要有其他任何内容!!!</font><br />
+<img src="ai/image3.png" alt="img" /></p>
+<hr />
+<p>成功后, 如果老师有日富美好友, 日富美会主动发送通知哦！<br />
+<img src="ai/QQ_1770650240816.png" alt="img" /></p>
+</blockquote>
+<blockquote>
+<h2 id="%E9%A2%84%E8%AE%BE">预设</h2>
+<p>老师可以使用预设哦！<br />
+有一些预设需要多张图片, 日富美会在里面提示的哦！</p>
+
+<pre class="language-none"><code class="language-none">/ai 预设
+</code></pre>
+<p><img src="ai/image4.png" alt="img" /></p>
+</blockquote>
+<blockquote>
+<h2 id="%E4%BD%BF%E7%94%A8">使用</h2>
+<p>可以通过回复或嵌入图片来添加, 也可以艾特别人(使用头像), 也可以混合用！<br />
+模型名称有(详情请看<a href="#有什么模型">&quot;有什么模型&quot;</a>):</p>
+<ul>
+<li>香蕉</li>
+<li>香蕉pro</li>
+<li>后面还会添加更多...</li>
+</ul>
+
+<pre class="language-none"><code class="language-none">/ai [模型名称] [预设]
+</code></pre>
+<p>或</p>
+
+<pre class="language-none"><code class="language-none">/ai [模型名称] 自定义 [自定义描述]
+</code></pre>
+<hr />
+<p>示例:</p>
+
+<pre class="language-none"><code class="language-none">[回复图片] /ai 香蕉 手办化
+</code></pre>
+<p><img src="ai/image5.png" alt="img" /></p>
+
+<pre class="language-none"><code class="language-none">/ai 香蕉pro 苦命鸳鸯 @A @B
+</code></pre>
+<p><img src="ai/QQ_1770652048525.png" alt="img" /></p>
+
+<pre class="language-none"><code class="language-none">[回复图片] /ai 香蕉pro 买套套 @A [图片]
+</code></pre>
+<p>....?</p>
+
+<pre class="language-none"><code class="language-none">/ai 香蕉pro 自定义 生成一张windows的桌面截图
+</code></pre>
+<p><img src="ai/QQ_1770652754065.png" alt="img" /></p>
+</blockquote>
+
+                        
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/hifumibot/hifumi/index.html">
+                            <span class="icon"></span>
+                            <span class="label"><font color="red">⚠️使用前须知⚠️</font></span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        
+                        <a href="/hifumibot/hifumi/common/jrys.html">
+                            <span class="label">✨今日运势</span>
+                            <span class="icon"></span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc_wrapper">
+                <div id="toc">
+                    <div id="toc_content">
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a>日富美Bot HifumiBot</a><ul><li><a target="_blank" href="/hifumibot/#"><center><a href="https://qm.qq.com/q/DVvtJoiOCO" target="_blank"><font color="red">加入【日富美の小窝】</font></a></center</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://qm.qq.com/q/yibcpuCPBI">『用科学无法证明的东西不一定就是虚假的』<br><br>——WR</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/hifumibot/teedoc-plugin-markdown-parser/mermaid.min.js"></script>
+    
+        <script>mermaid.initialize({startOnLoad:true});</script>
+    
+        <script src="/hifumibot/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/hifumibot/static/js/theme_default/main.js"></script>
+    
+        <script src="/hifumibot/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/hifumibot/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/hifumibot/static/js/search/search_main.js"></script>
+    
+        <script src="/hifumibot/static/js/custom.js"></script>
+    
+        <link rel="stylesheet" href="/hifumibot/static/js/add_hint/style.css" type="text/css"/>
+    
+        <script src="/hifumibot/static/js/add_hint/main.js"></script>
+    
+</body>
+
+</html>
