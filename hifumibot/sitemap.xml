@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/jrys.html</loc>
-            <lastmod>2026-02-08</lastmod>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/setu.html</loc>
+            <lastmod>2026-02-14</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -31,37 +31,7 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/bottle.html</loc>
-            <lastmod>2026-02-08</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/games/yinpa.html</loc>
-            <lastmod>2026-02-08</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/index.html</loc>
-            <lastmod>2026-02-08</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/tools/bilibili.html</loc>
-            <lastmod>2026-02-08</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/netease_music.html</loc>
-            <lastmod>2026-02-08</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/waifu.html</loc>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/jrys.html</loc>
             <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
@@ -80,6 +50,42 @@
         </url>
         <url>
             <loc>https://docs.wstudio.work/hifumibot/hifumi/utils/status.html</loc>
+            <lastmod>2026-02-08</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/bottle.html</loc>
+            <lastmod>2026-02-08</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/netease_music.html</loc>
+            <lastmod>2026-02-08</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/common/waifu.html</loc>
+            <lastmod>2026-02-14</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/games/yinpa.html</loc>
+            <lastmod>2026-02-08</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/index.html</loc>
+            <lastmod>2026-02-14</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://docs.wstudio.work/hifumibot/hifumi/tools/bilibili.html</loc>
             <lastmod>2026-02-08</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
