@@ -6,6 +6,8 @@ items:
     items:
       - label: 🤖AI(原手办化)
         file: common/ai.md
+      - label: 📄简易群管(原自定义入群欢迎)
+        file: tools/simple_admin.md
 
   - label: 🍾通用
     items:

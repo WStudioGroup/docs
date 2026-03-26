@@ -54,7 +54,7 @@ var _hmt = _hmt || [];
         
     
     
-    <title>今日老婆 - Hifumi-Bot 使用文档</title>
+    <title>简易群管(原自定义入群欢迎) - Hifumi-Bot 使用文档</title>
     
     <script type="text/javascript">js_vars = {"teedoc-plugin-ad-hint": {"type": "hint", "label": "【官方机器人】联邦学生会会长", "content": "欢迎老师使用官方机器人 - <a href=\"https://qun.qq.com/qunpro/robot/qunshare?robot_appid=102110901&robot_uin=3889029315\" target=\"_blank\">联邦学生会会长机器人</a>", "show_times": -1, "show_after_s": 432000, "date": null, "color": "#a0421d", "link_color": "#e53935", "link_bg_color": "#e6ae5c", "bg_color": "#ffcf89", "color_hover": "white", "bg_color_hover": "#f57c00", "close_color": "#eab971"}}</script>
     <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
@@ -107,13 +107,13 @@ var _hmt = _hmt || [];
                 </div>
                 <ul class="show">
 <li class="not_active with_link"><a href="/hifumibot/hifumi/index.html"><span class="label"><font color="red">⚠️使用前须知⚠️</font></span><span class=""></span></a></li>
-<li class="not_active no_link"><a><span class="label">🎈🎈<font color="#1a34daff">新功能</font></span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="active_parent no_link"><a><span class="label">🎈🎈<font color="#1a34daff">新功能</font></span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active with_link"><a href="/hifumibot/hifumi/common/ai.html"><span class="label">🤖AI(原手办化)</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/hifumibot/hifumi/tools/simple_admin.html"><span class="label">📄简易群管(原自定义入群欢迎)</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hifumibot/hifumi/tools/simple_admin.html"><span class="label">📄简易群管(原自定义入群欢迎)</span><span class=""></span></a></li>
 </ul>
 </li>
-<li class="active_parent no_link"><a><span class="label">🍾通用</span><span class="sub_indicator"></span></a><ul class="show">
-<li class="active with_link"><a href="/hifumibot/hifumi/common/jrys.html"><span class="label">✨今日运势</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">🍾通用</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hifumibot/hifumi/common/jrys.html"><span class="label">✨今日运势</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hifumibot/hifumi/common/waifu.html"><span class="label">😍今日老婆</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hifumibot/hifumi/common/bottle.html"><span class="label">🫙漂流瓶</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hifumibot/hifumi/common/setu.html"><span class="label">🖼️色图</span><span class=""></span></a></li>
@@ -150,7 +150,7 @@ var _hmt = _hmt || [];
                     <div id="article_head">
                         <div id="article_title">
                             
-                            <h1>今日老婆</h1>
+                            <h1>简易群管(原自定义入群欢迎)</h1>
                             
                         </div>
                         <div id="article_tags">
@@ -180,12 +180,23 @@ var _hmt = _hmt || [];
                     <div id="article_content">
                         
                             <blockquote>
-<h2 id="%E4%BB%8A%E6%97%A5%E8%BF%90%E5%8A%BF">今日运势</h2>
-<p><font color="red">请老师直接发送哦！</font>不需要<code>/</code></p>
+<h2 id="%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%A5%E7%BE%A4%E6%AC%A2%E8%BF%8E">自定义入群欢迎</h2>
+<p>自定义入群欢迎，日富美会在新人到来的时候自动发送哦！<br />
+(图片可能有出入，本日富美懒得更新了...其实就是多了个加入昵称)</p>
 
-<pre class="language-none"><code class="language-none">今日运势
+<pre class="language-none"><code class="language-none">/设置入群欢迎
+/取消入群欢迎
 </code></pre>
-<p><img src="jrys/image.png" alt="alt text" /></p>
+<p><img src="simple_admin/QQ_1774533329917.png" alt="img" /></p>
+</blockquote>
+<blockquote>
+<h2 id="%E8%87%AA%E5%AE%9A%E4%B9%89%E9%80%80%E7%BE%A4%E9%80%9A%E7%9F%A5">自定义退群通知</h2>
+<p>自定义退群通知，有成员退出的时候日富美会发送哦~</p>
+
+<pre class="language-none"><code class="language-none">/设置退群通知
+/取消退群通知
+</code></pre>
+<p>(无图...)</p>
 </blockquote>
 
                         
@@ -194,16 +205,16 @@ var _hmt = _hmt || [];
                 <div id="previous_next">
                     <div id="previous">
                         
-                        <a href="/hifumibot/hifumi/tools/simple_admin.html">
+                        <a href="/hifumibot/hifumi/common/ai.html">
                             <span class="icon"></span>
-                            <span class="label">📄简易群管(原自定义入群欢迎)</span>
+                            <span class="label">🤖AI(原手办化)</span>
                         </a>
                         
                     </div>
                     <div id="next">
                         
-                        <a href="/hifumibot/hifumi/common/waifu.html">
-                            <span class="label">😍今日老婆</span>
+                        <a href="/hifumibot/hifumi/common/jrys.html">
+                            <span class="label">✨今日运势</span>
                             <span class="icon"></span>
                         </a>
                         
