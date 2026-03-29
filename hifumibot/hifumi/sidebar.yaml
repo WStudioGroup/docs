@@ -37,6 +37,8 @@ items:
     items:
       - label: 🎥b站解析
         file: tools/bilibili.md
+      - label: 🔽表情包下载
+        file: tools/download_image.md
 
   - label: ⚙️杂项
     items:
